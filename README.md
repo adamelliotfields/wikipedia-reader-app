@@ -2,19 +2,23 @@
 
 A Wikipedia reader that parses Wikipedia articles into easy to read text without leaving the app.
 
-![Wikipedia Reader](wikipedia-search.png)
+![Wikipedia Reader](wikipedia-reader.png)
 
 
 ### Live Demo
 
-[index.html](https://adamelliotfields.github.io/free-code-camp/front-end-development/6-wikipedia-search/index.html)
+[index.html](https://adamelliotfields.github.io/wikipedia-reader-app/index.html)
 
 
 ### Notes
 
-While I wasn't blown away by Wikipedia's API docs (thank God for Stack Overflow), I was pleased with how powerful the API is. It's even possible to get the full HTML for an entire article, including all links and images.
+*This is a clone of [adamelliotfields/free-code-camp/front-end-development/6-wikipedia-search](https://github.com/adamelliotfields/free-code-camp/tree/master/front-end-development/6-wikipedia-search).*
 
-I attempted to use some alternative CSS frameworks like Skeleton, Pure, and Bulma, but went back to tried-and-true Bootstrap. Bootstrap 4 cards are perfect for this app, and the time it takes to learn a new micro-framework is not worth the 100kb I'd save (but they are still excellent alternatives).
+*This app was coded from scratch, start-to-finish, and was not based off of any tutorial.*
+
+While I wasn't blown away by Wikipedia's API docs, I was pleased with how powerful the API is. It's even possible to get the full HTML for an entire article, including all links and images.
+
+I attempted to use some alternative CSS frameworks like Skeleton, Pure, and Bulma, but went back to tried-and-true Bootstrap. The Bootstrap 4 Card component is perfect for this app.
 
 I'm using the [Zepto.js](http://zeptojs.com/) JavaScript library which is super light-weight and fast compared to jQuery. 
 
