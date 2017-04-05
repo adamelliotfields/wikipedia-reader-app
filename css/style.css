@@ -1,0 +1,87 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 6rem;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: 600;
+  padding-top: 1rem;
+  padding-bottom: .5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+h2 + h3,
+h2 + p {
+  margin-top: 1rem;
+}
+
+h4.card-title {
+  padding-bottom: .5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+a p {
+  padding-bottom: 1rem;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.form-control:focus {
+  border-color: #ec971f;
+  border-radius: .25rem;
+}
+
+.btn-link:focus {
+  border-color: #ec971f;
+  border-radius: .25rem;
+}
+
+.card {
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  animation-name: fadeIn;
+  -webkit-animation-name: fadeIn;
+  -moz-animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.card-footer {
+  padding-top: 1rem;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 6rem;
+  line-height: 6rem;
+  text-align: center;
+}
